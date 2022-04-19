@@ -1,0 +1,66 @@
+#root , html{
+    height: 100vh;
+    background: rgb(28, 28, 29);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    body{ 
+        text-align: center;
+        background: #6a6f78;
+        color: wheat;
+    
+        header {
+            background: blue;
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem;
+    
+            .header__logo__container {
+                img {
+                    width: 5rem;
+                    margin: 0 0 0 5rem;
+                }
+            }
+    
+            .header__nav {
+                margin: auto;
+                .nav__link {
+                    color: rgb(0, 0, 0);
+                    text-decoration: none;
+                    padding: 2rem;
+                }
+            }
+    
+            .header__cartWidget {
+                margin: auto 5rem auto 0;
+            }
+        }
+
+        .itenListContainer{
+            background: cadetblue;
+        }
+        main {
+            background: rgb(119, 73, 80);
+            width: 90%;
+            margin: auto;
+            height: 100%;
+        }
+    
+        footer {
+            color: wheat;
+            background: cadetblue;
+            padding: 1rem;
+            margin: 5rem 0;
+            display: flex;
+            flex-direction: column;
+        }
+        
+    }
+    
+    
+    
+}
+
