@@ -2,7 +2,7 @@ import Nav from "./Nav"
 
 const Footer = (props) => {
 
-    console.log(props)
+    // console.log(props)
 
     return (
         <footer>

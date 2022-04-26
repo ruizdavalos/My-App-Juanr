@@ -32,21 +32,61 @@
                     text-decoration: none;
                     padding: 2rem;
                 }
-            }
-    
+            }    
             .header__cartWidget {
                 margin: auto 5rem auto 0;
             }
         }
 
-        .itenListContainer{
-            background: cadetblue;
-        }
         main {
             background: rgb(119, 73, 80);
             width: 90%;
             margin: auto;
             height: 100%;
+            .itemCountContainer{
+                border:  solid;
+                width: 15rem;
+                margin:1rem auto;
+                .countContainer {
+                    display: flex;
+                    justify-content: space-around;
+                    border: solid black;
+                    padding: 0.6rem ;
+                    p {
+                        font-size: larger;
+                    }
+                    button {
+                        padding: 4px;
+                    }
+                    
+                }
+                .buttonOnAdd {
+                    width: 100%;
+                    background: rgb(0, 110, 255);
+                    color: wheat;
+                    padding: 4px;
+                    
+                }
+
+            }
+            .modal {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: rgb(252, 250, 250);
+                color: rgb(0, 0, 0);
+                padding: 1rem;
+                border-radius: 0.5rem;
+                border-radius: 0.3rem;
+                box-shadow: 0 0 0 1000px rgba(48, 99, 38, 0.39);
+                .buttonClose {
+                    background: rgb(0, 0, 255);
+                    color: #fff;
+                    margin-top: 0.5rem;
+                    padding: 3px;
+                }
+            }
         }
     
         footer {

@@ -4,8 +4,6 @@ import Header from './componentes/Header'
 import { ItenListContainer } from './componentes/ItenListContainer'
 import { Main } from './componentes/Main'
 import './styles.scss'
-import 'bootstrap/dist/css/bootstrap.min.css'
-
 
 const App = ()  => {
 
@@ -15,7 +13,6 @@ const App = ()  => {
   return ( 
     <>
       <Header/>
-      <ItenListContainer greeting='Hola soy GREETING'/>
       <Main/>
       <Footer  edad = {edad}/>
     </>
