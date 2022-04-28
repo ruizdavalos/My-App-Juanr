@@ -1,12 +1,14 @@
-// import { ItemCount } from "./ItemCount"
-
-import { ItenListContainer } from "./ItenListContainer"
 
 
-export const Main = ({ children, nombre}) => {
+import { ItemListContainer } from "./ItemListContainer"
+
+
+
+
+export const Main = () => {
     return(
         <main>
-                <ItenListContainer/>
+                <ItemListContainer/>
         </main>
     )
 }

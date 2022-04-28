@@ -1,12 +1,16 @@
 
 import { useState } from "react"
 
+
+
 export const ItemCount = ( {stockInitial, initial, onAdd}) => {
 
     const [ stock, setStock ] = useState(stockInitial)
     const [ contador, setContador] = useState(initial)
     const [ compra, setCompra] = useState(0)
     const [ confirmado, setConfirmado] = useState( false )
+
+
 
     const restar = () =>{
         if ( contador > 1 ){
